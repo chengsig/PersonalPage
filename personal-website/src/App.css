@@ -36,3 +36,9 @@ i {
     transform: rotate(360deg);
   }
 }
+
+.icons {
+  position: absolute;
+  left: 47%;
+  bottom: 8%;
+}

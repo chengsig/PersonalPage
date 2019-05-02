@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./NavBar.css";
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'reactstrap';
+import resume from './chengsi_gao_resume.pdf';
 
 
 class NavBar extends Component {
@@ -9,14 +10,22 @@ class NavBar extends Component {
         return (
             <Navbar color="light" light expand="md">
                 <NavLink exact to="/" className="navbar-brand">
-                    <h2>Chengsi</h2>
-                    <p><a href="mailto:gaochengsi@gmail.com">gaochengsi@gmail.com</a></p>
+                    <h4>Chengsi</h4>
                 </NavLink>
 
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink to="/resume/">Resume</NavLink>
+                        <a href={resume}>Resume</a>
                     </NavItem>
+                
+                    <NavItem>
+                        <NavLink to="/experience/">Experience</NavLink>
+                    </NavItem>
+
+                    <NavItem>
+                        <NavLink to="/projects/">Projects</NavLink>
+                    </NavItem>
+
                     <NavItem>
                         <NavLink to="/contact/">Contact</NavLink>
                     </NavItem>
@@ -27,4 +36,4 @@ class NavBar extends Component {
     }
 }
 
-export default NavBar
+export default NavBar;
