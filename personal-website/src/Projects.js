@@ -10,7 +10,7 @@ class Projects extends Component {
                 <img src={warbler} alt="warbler"/><br></br>
                 <div className="container">
                     <a href="https://pizzawarbler.herokuapp.com/">Warbler </a> 
-                    is a twitter clone that allows the user to register 
+                    is a twitter clone that allows users to register 
                     and participate in the warbler community.
                     To learn more about the site, visit the repository
                     at <a href="https://github.com/chengsig/warbler"><i class="fab fa-github"></i></a>.
