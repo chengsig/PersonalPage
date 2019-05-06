@@ -14,7 +14,7 @@ class NavBar extends Component {
 
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <a href="https://docs.google.com/document/d/1ARfs7DIyVZD2NrThdPdOWFBgUl7F4phsev2MbfG8_YU/edit?usp=sharing">Resume</a>
+                        <a href="https://docs.google.com/document/d/1ARfs7DIyVZD2NrThdPdOWFBgUl7F4phsev2MbfG8_YU/edit?usp=sharing" target="_blank">Resume</a>
                     </NavItem>
                 
                     <NavItem>
