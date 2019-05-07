@@ -1,5 +1,10 @@
-#intro {
+.home {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 550px; 
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+    float: none;
 }
 
 p a {
@@ -10,12 +15,14 @@ p a {
     background-color:#80800038;
 }
 
-.home {
-    width: 550px; 
-    margin: 0 auto;
+.profile {
+    width: 400px;
+    margin-top: 30px;
     padding: 10px 0;
     align-items: center;
-    justify-content: space-around;
-    display: flex;
-    float: none;
+    margin: auto;
+}
+
+#profilePic {
+    border-radius: 50%;
 }

@@ -32,8 +32,8 @@ class App extends Component {
               render={() => <NotFound />} />
           </Switch>
           <div className="icons">
-            <a href="https://www.linkedin.com/in/chengsi-gao/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/chengsig"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/chengsi-gao/"><i class="fab fa-linkedin"></i></a><br/>
+            <a href="https://github.com/chengsig"><i class="fab fa-github-square"></i></a><br/>
             <a href="mailto:gaochengsi@gmail.com"><i class="fas fa-envelope-square"></i></a>
           </div> 
         </main>
