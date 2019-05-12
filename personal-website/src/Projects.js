@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import warbler from './warbler.png';
+import microblog from './microblog.png';
 
 
 class Projects extends Component {
@@ -15,7 +16,14 @@ class Projects extends Component {
                     To learn more about the site, visit the repository
                     at <a href="https://github.com/chengsig/warbler"><i class="fab fa-github"></i></a>.
                 </div>
-                
+                <br/>
+                <img src={microblog} alt="microblog"/><br></br>
+                <div className="container">
+                    <a href="https://ca-microblog-frontend.herokuapp.com/">Microblog</a> 
+                    is an online blogging site. Users can write posts, add comments to each post and the community can vote on blogs.
+                    To learn more about the site, visit the repository
+                    at <a href="https://github.com/chengsig/microblog"><i class="fab fa-github"></i></a>.
+                </div>
             </div>
         )
     }
