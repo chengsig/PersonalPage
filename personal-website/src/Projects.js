@@ -14,15 +14,15 @@ class Projects extends Component {
                     is a twitter clone that allows users to register 
                     and participate in the warbler community.
                     To learn more about the site, visit the repository
-                    at <a href="https://github.com/chengsig/warbler"><i class="fab fa-github"></i></a>.
+                    at <a href="https://github.com/chengsig/warbler"><i class="fab fa-github"></i></a>. <span className="badge badge-info">Flask</span>
                 </div>
                 <br/>
                 <img src={microblog} alt="microblog"/><br></br>
                 <div className="container">
-                    <a href="https://ca-microblog-frontend.herokuapp.com/">Microblog</a> 
+                    <a href="https://ca-microblog-frontend.herokuapp.com/">Microblog </a> 
                     is an online blogging site. Users can write posts, add comments to each post and the community can vote on blogs.
                     To learn more about the site, visit the repository
-                    at <a href="https://github.com/chengsig/microblog"><i class="fab fa-github"></i></a>.
+                    at <a href="https://github.com/chengsig/microblog"><i class="fab fa-github"></i></a>. <span className="badge badge-info">React Redux</span>
                 </div>
             </div>
         )

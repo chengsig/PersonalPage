@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import "./NavBar.css";
+
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'reactstrap';
+
+import resume from './Chengsi_Gao_resume.pdf';
+import "./NavBar.css";
 
 
 class NavBar extends Component {
@@ -14,7 +17,7 @@ class NavBar extends Component {
 
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <a href="https://docs.google.com/document/d/1ARfs7DIyVZD2NrThdPdOWFBgUl7F4phsev2MbfG8_YU/edit?usp=sharing" target="_blank">Resume</a>
+                        <a href={resume} rel="noreferrer noopener" target="_blank">Resume</a>
                     </NavItem>
                 
                     <NavItem>
